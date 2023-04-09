@@ -23,6 +23,9 @@ namespace PurpleBuzz.Data
         public DbSet<PricingOffer> PricingOffers{ get; set; }
         public DbSet<PricingTitle> PricingTitles { get; set; }
         public DbSet<PricingHeader> PricingHeaders { get; set; }
+        public DbSet<ContactBanner> ContactBanners { get; set; }
+        public DbSet<ContactHeader> ContactHeaders { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
 
     }
 }
